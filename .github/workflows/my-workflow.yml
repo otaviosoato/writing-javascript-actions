@@ -14,7 +14,8 @@ jobs:
     - name: hello-action
       uses: ./.github/actions/hello-world
 
-    - name: jokes
+    - name: get-random-joke
+      id: jokes
       uses: ./.github/actions/joke-action
     
     - name: create-issue
