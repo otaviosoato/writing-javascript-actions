@@ -1,6 +1,8 @@
 name: JS Actions
 
-on: [push]
+on:
+  pull-request:
+    types: [labeled]
 
 jobs:
   action:
